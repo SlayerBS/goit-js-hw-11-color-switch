@@ -34,5 +34,5 @@ const randomIntegerFromInterval = (min, max) => {
 
 const changeBodyBackground = () => {
   refs.body.style.backgroundColor =
-    colors[randomIntegerFromInterval(0, colors.length)];
+    colors[randomIntegerFromInterval(0, colors.length - 1)];
 };
